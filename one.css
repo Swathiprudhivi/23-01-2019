@@ -1,0 +1,42 @@
+﻿h1 {
+    background-color: blue;
+}
+/*id selector*/
+#pname {
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+}
+/*class selector*/
+.p2 {
+    background-color: lightblue;
+    color: #000000;
+    font-size: 48px;
+    font: weight:bold;
+}
+/*attribute selector*/
+input[type="text"] {
+    background-color: aqua;
+    color: red;
+}
+/*universal style*/
+* {
+    font-style: italic;
+}
+
+/*group stlye*/
+h3, h1 {
+    color: red;
+}
+/*inner tag selector */
+div p {
+    color: black;
+    font-size: 20px;
+    background-color: palevioletred;
+}
+/*child tag selector*/
+div > p {
+    color: blue;
+    font-size: 20px;
+    font-family: bold;
+}
